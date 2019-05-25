@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/red_background">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:text="Welcome"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"/>
+
+    <LinearLayout
+        android:id="@+id/phone_number_linear_main_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please enter your phone number:"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/phone_number_edt_main_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:inputType="number"
+            android:gravity="center"
+            android:hint="+98 115823029"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/phone_number_btn_main_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="submit"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/first_selector"
+        />
+</RelativeLayout>
