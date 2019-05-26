@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         if (PreferenceData.getUserLoggedInStatus(getApplicationContext()) == true) {
             Intent intent = new Intent(MainActivity.this, SecondActivity.class);
             intent.putExtra("number", PreferenceData.getLoggedInPhoneNumberUser(this));
-            startActivity(intent);
+            startActivityForResult(intent,888);
         }
 
         submit_btn.setOnClickListener(new View.OnClickListener() {
