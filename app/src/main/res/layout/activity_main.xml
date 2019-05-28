@@ -36,7 +36,7 @@
             android:layout_gravity="center"
             android:inputType="number"
             android:gravity="center"
-            android:hint="+98 115823029"/>
+            android:hint="+98115823029"/>
     </LinearLayout>
     <Button
         android:id="@+id/phone_number_btn_main_activity"

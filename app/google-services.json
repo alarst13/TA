@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "345036515449",
-    "firebase_url": "https://mysecondproject-978d1.firebaseio.com",
-    "project_id": "mysecondproject-978d1",
-    "storage_bucket": "mysecondproject-978d1.appspot.com"
+    "project_number": "109659690699",
+    "firebase_url": "https://teacherassistantproject.firebaseio.com",
+    "project_id": "teacherassistantproject",
+    "storage_bucket": "teacherassistantproject.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:345036515449:android:6edc5989d488d8e7",
+        "mobilesdk_app_id": "1:109659690699:android:6edc5989d488d8e7",
         "android_client_info": {
           "package_name": "com.example.ta"
         }
       },
       "oauth_client": [
         {
-          "client_id": "345036515449-birktl6fmf50gi3skm4lsak86l6q9sro.apps.googleusercontent.com",
+          "client_id": "109659690699-sfrb9t9q6r4finprn1lade4jktpgl3vj.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.ta",
@@ -23,20 +23,20 @@
           }
         },
         {
-          "client_id": "345036515449-hq827ccrrtopbc9cqmmqe08a910nqs1m.apps.googleusercontent.com",
+          "client_id": "109659690699-cstn7oh83sm53ftgt8c91neu2o77bdvb.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBBjaTfhmxBMmoUPPhzJVZkSeo531ELsk8"
+          "current_key": "AIzaSyCUqmnUY2U2pU4i92f92G3A37MjttePphU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "345036515449-hq827ccrrtopbc9cqmmqe08a910nqs1m.apps.googleusercontent.com",
+              "client_id": "109659690699-cstn7oh83sm53ftgt8c91neu2o77bdvb.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:weightSum="4">
+        android:weightSum="5">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -21,13 +21,12 @@
             android:textSize="20sp"
             android:fontFamily="cursive"
             android:layout_marginBottom="10dp"/>
-
         <TextView
             android:id="@+id/phone_number_txt2_second_activity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18sp"
-            android:layout_marginBottom="25dp"/>
+            android:layout_marginBottom="10dp"/>
         <TextView
             android:id="@+id/phone_number_txt3_second_activity"
             android:clickable="true"
@@ -45,6 +44,16 @@
             android:layout_height="wrap_content"
             android:hint="Enter the code"
             android:inputType="number"
-            android:textSize="15sp"/>
+            android:textSize="15sp"
+            android:layout_marginBottom="25dp"/>
+        <Button
+            android:id="@+id/verification_code_btn_second_activity"
+            android:layout_width="65dp"
+            android:layout_height="35dp"
+            android:background="@drawable/first_selector"
+            android:text="sign in"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"/>
     </LinearLayout>
 </RelativeLayout>

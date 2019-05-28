@@ -38,8 +38,7 @@ public class MainActivity extends AppCompatActivity {
         phone_number_edt = findViewById(R.id.phone_number_edt_main_activity);
 
         if (PreferenceData.getUserLoggedInStatus(getApplicationContext()) == true) {
-            Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-            intent.putExtra("number", PreferenceData.getLoggedInPhoneNumberUser(this));
+            Intent intent = new Intent(MainActivity.this, ThirdActivity.class);
             startActivityForResult(intent,888);
         }
 
@@ -48,8 +47,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String phoneNumber;
                 phoneNumber = phone_number_edt.getText().toString();
-                PreferenceData.setUserLoggedInStatus(getApplicationContext(), true);
-                PreferenceData.setLoggedInUserPhoneNumber(getApplicationContext(), phoneNumber);
                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
                 intent.putExtra("number", phoneNumber);
                 startActivity(intent);
